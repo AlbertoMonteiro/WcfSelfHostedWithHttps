@@ -1,2 +1,0 @@
-makecert.exe -sk RootCA -sky signature -pe -n CN=localhost -r -sr LocalMachine -ss Root MyCA.cer
-makecert.exe -sk server -sky exchange -pe -n CN=localhost -ir LocalMachine -is Root -ic MyCA.cer -sr LocalMachine -ss My MyAdHocTestCert

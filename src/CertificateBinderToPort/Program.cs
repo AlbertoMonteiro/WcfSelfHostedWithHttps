@@ -8,7 +8,7 @@ namespace CertificateBinderToPort
     {
         static void Main(string[] args)
         {
-            var thumbprint = new X509Certificate2(@"C:\temp\MyAdHocTestCert.cer").Thumbprint;
+            var thumbprint = new X509Certificate2(@"..\..\..\..\Certificados\MyAdHocTestCert.cer").Thumbprint;
 
             var startInfo = new ProcessStartInfo("netsh.exe", $"http add sslcert ipport=0.0.0.0:5050 certhash={thumbprint} appid={{{Guid.NewGuid()}}}")
             {
