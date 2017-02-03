@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4314450d-5b7c-44cc-b5ff-1802bf26755a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://127.0.0.1:5050/WcfService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WcfService.xsd" MetadataType="Schema" ID="558f7f6c-bf8e-499a-92a5-2895ccc32fde" SourceId="1" SourceUrl="https://127.0.0.1:5050/WcfService?xsd=xsd0" />
+    <MetadataFile FileName="HelloWorldService.wsdl" MetadataType="Wsdl" ID="70ae73cb-51da-4bb1-8a69-9ae96ec64339" SourceId="1" SourceUrl="https://127.0.0.1:5050/WcfService?wsdl" />
+    <MetadataFile FileName="WcfService1.xsd" MetadataType="Schema" ID="b689b6f0-9587-4a63-99a1-3b698591742c" SourceId="1" SourceUrl="https://127.0.0.1:5050/WcfService?xsd=xsd1" />
+    <MetadataFile FileName="WcfService.disco" MetadataType="Disco" ID="e85dc261-ff34-444a-9c53-4e597b6d8ed0" SourceId="1" SourceUrl="https://127.0.0.1:5050/WcfService?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
